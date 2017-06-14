@@ -32,27 +32,15 @@
         android:layout_marginBottom="80dp"
         android:id="@+id/line"/>
 
-    <TextView
-        android:text="比赛帮"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:textColor="@android:color/background_light"
-        android:textSize="40dp"
-        android:layout_toLeftOf="@id/line"
-        android:layout_alignBottom="@id/line"
-        android:layout_alignTop="@id/line"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="5dp"/>
 
     <ImageView
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:src="@drawable/js_image_ic_login_logo"
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:src="@drawable/bsblogo"
         android:id="@+id/logo"
         android:layout_alignTop="@id/line"
         android:layout_alignBottom="@id/line"
-        android:layout_toLeftOf="@id/textView"
+        android:layout_toLeftOf="@id/line"
         android:layout_marginRight="5dp"/>
 
 
@@ -70,7 +58,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="gold.xitu.io"
+        android:text="www.bisaibang.com"
         android:textColor="#fff"
         android:textSize="17dp"
         android:layout_toRightOf="@id/line"
