@@ -1,5 +1,5 @@
 /**
- * Created by wangdi on 4/11/16.
+ * Created by yzd on 2017-6-15.
  */
 'use strict';
 
@@ -40,10 +40,13 @@ export default class TabBar extends Component{
                 <TabNavigator.Item
                     tabStyle={styles.tabStyle}
                     title={tabName[0]}
+                    {/*选中状态*/}
                     selected={this.state.selectedTab === 'home'}
                     selectedTitleStyle={{color: selectedColor}}
+                    {/*渲染图标*/}
                     renderIcon={() => <Image style={styles.tab} source={this.state.homeNormal} />}
                     renderSelectedIcon={() => <Image style={styles.tab} source={this.state.homeSelected} />}
+                    {/*触摸事件*/}
                     onPress={() => this.setState({ selectedTab: 'home' })}>
                     {<HomeFragment navigator={this.props.navigator}/>}
                 </TabNavigator.Item>

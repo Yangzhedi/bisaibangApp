@@ -91,7 +91,7 @@ export default class TabItemSwitcherPage extends Component{
         //back to the last page
         const navigator = this.props.navigator;
         if (navigator && navigator.getCurrentRoutes().length > 1) {
-            navigator.pop()
+            navigator.pop();
             return true;
         }
         return false;
